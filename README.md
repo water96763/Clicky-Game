@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This app lets you test your memory.  Click on the pictures of the greyhounds, but only pick them once!  If you pick the same picture twice, the game will reset!
 ## Available Scripts
 
 In the project directory, you can run:
