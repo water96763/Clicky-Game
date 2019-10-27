@@ -20,3 +20,51 @@
 .App-link {
   color: #09d3ac;
 }
+@mixin clearfix {
+  &:after {
+    display: table;
+    clear: both;
+    content:'';
+  }
+}
+
+body {
+  margin-top: 3rem;
+}
+.l-wrap {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.grid-item {
+  width: calc((100% - 24px * 2) / 3);
+  margin-top: 24px;
+  margin-right: 24px;
+  float: left;
+}
+
+/* For a 3-column grid */
+.grid-item:nth-child(3n+3) {
+  margin-right: 0;
+  float: right;
+}
+
+/* Demo purposes */
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  text-align: center;
+  background: rgba(red, 0.25);
+
+}
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 25px 0 50px;
+  justify-content: space-around;
+  align-content: flex-start;
+}
