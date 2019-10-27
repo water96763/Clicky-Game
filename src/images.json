@@ -1,48 +1,48 @@
 [{
-    "name": "pic1",
+    "id": 1,
     "image": "dog1.jpg"
 },
 {
-    "name": "pic2",
+    "id": 2,
     "image": "dog2.jpg"
 },
 {
-    "name": "pic3",
+    "id": 3,
     "image": "dog3.jpg"
 },
 {
-    "name": "pic4",
+    "id": 4,
     "image": "dog4.jpg"
 },
 {
-    "name": "pic5",
+    "id": 5,
     "image": "dog5.jpg"
 },
 {
-    "name": "pic6",
+    "id": 6,
     "image": "dog6.jpg"
 },
 {
-    "name": "pic7",
+    "id": 7,
     "image": "dog7.jpg"
 },
 {
-    "name": "pic8",
+    "id": 8,
     "image": "dog8.jpg"
 },
 {
-    "name": "pic9",
+    "id": 9,
     "image": "dog9.jpg"
 },
 {
-    "name": "pic10",
+    "id": 10,
     "image": "dog10.jpg"
 },
 {
-    "name": "pic11",
+    "id": 11,
     "image": "dog11.jpg"
 },
 {
-    "name": "pic12",
+    "id": 12,
     "image": "dog12.jpg"
 }]

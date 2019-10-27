@@ -14,7 +14,7 @@ class App extends Component {
 imageClick = event => {
   const currentMain = event.target.alt;
   const MainAlreadyClicked =
-    this.state.picked.indexOf(currentMain) > -1;
+    this.state.picked.indexOf(currentMain) <-1;
 
 
   if (MainAlreadyClicked) {
@@ -65,8 +65,8 @@ render() {
       <div className="wrapper">
         {this.state.dogs.map(dogs => (
           <Main
+            imageClick={this.imageClick}
             id={dogs.id}
-            name={dogs.name}
             image={dogs.image}
             key={dogs.id}
           />
