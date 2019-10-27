@@ -68,3 +68,6 @@ body {
   justify-content: space-around;
   align-content: flex-start;
 }
+.score {
+  font-size: 25px;
+}

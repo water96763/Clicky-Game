@@ -61,7 +61,7 @@ render() {
   return (
     <div>
       <Header />
-        score={this.state.score}
+        <div class="score">Score = {this.state.score}</div>
       <div className="wrapper">
         {this.state.dogs.map(dogs => (
           <Main
